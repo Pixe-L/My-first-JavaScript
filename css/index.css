@@ -1,0 +1,49 @@
+:root {
+ --font-family: 'Play', sans-serif;
+ --bgcolor: #202e4e;
+ --bgsaludo: #0013bb;
+}
+
+html {
+ height: 100%;
+}
+
+body {
+ font-family: var(--font-family);
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: var(--bgcolor);
+}
+
+.saludo {
+ color: white;
+ background-color: var(--bgsaludo);
+ padding: 3rem;
+ border-radius: 1rem;
+ text-align: center;
+ box-shadow: 2px 2px 3px black;
+ max-width: 768px;
+}
+
+.saludo h1 {
+ font-size: 3rem;
+ margin-top: 0;
+}
+
+.saludo h2 {
+ margin-top: 0;
+}
+
+.saludo button {
+ width: 100%;
+ padding: 1rem;
+ border-radius: 5px;
+ background-color: black;
+ color: white;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ box-shadow: 2px 2px 3px lightseagreen;
+}
